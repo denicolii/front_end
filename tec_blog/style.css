@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(236, 235, 235);
+}
+
+.cabecalho {
+    background-color: rgb(240, 204, 0);
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    height: 150px;
+    
+}
+
+h1 {
+    color: #fff;
+    padding: 15px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+   color: rgb(113, 113, 114); 
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inicio {
+  padding: 5px;  
+  margin: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inicio:link{
+    color: #fff; 
+}
+
+.inicio:visited{
+    color: #fff; 
+}
+
+.inicio:hover {
+    background-color: rgb(179, 179, 179);
+    
+}
+
+a{
+    color: rgb(179, 152, 3);
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.paragrafo {
+    width: 650px;
+}
+
+.p1 {
+    background-color: #fff;
+    width: 650px ;
+    padding-top: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 160px;
+    
+}
+
+h2 {
+    color:rgb(226, 196, 26);
+    font-size: 25px;
+}
+
+.img1 {
+    padding-top: 10px;
+}
+
+.blocos {
+    width: 300px;
+    float: right;
+    margin-right: 150px;
+    background-color: #fff;
+    margin-top: 25px ;
+    background-color: rgb(253, 254, 255);
+   
+}
+
+.postagens {
+    float: left;
+    
+    
+}
+
+.caixa1{
+    text-align: center;
+    color: rgb(216, 214, 214);
+    background-color: rgb(133, 130, 130);
+    padding: 5px;
+    
+}
+
+.faixa1{
+    padding: 10px;
+    margin: 5px;   
+}
+
+.pb {
+    margin: 5px;
+    font-size: 18px;
+}
+
+.caixa2{
+    text-align: center;
+    color: rgb(216, 214, 214);
+    background-color: rgb(133, 130, 130);
+    padding: 5px;
+    margin-top: 20px;
+    
+}
+
+.faixa2{
+    padding: 10px;
+    margin: 5px;   
+}
+
+.bloco2{
+    margin-top: 20px;
+    background-color: rgb(233, 236, 238);
+}
+
+.bloco1 {
+    margin-bottom: 25px;
+}
+
+.c2 {
+    padding: 3px 3px 10px;
+    margin: 10px;
+    font-size: 18px;
+}
