@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    }
+
+body{
+    background-image: url(./img/background-test.png);
+}
+
+    .card {
+        margin-top: 50px;   
+        margin-left: 50px;
+        width: 240px;
+        height: 120px;
+        padding: 0.5rem;
+        background: url(./img/eleven-card.png);
+        border-radius: 8px;
+        backdrop-filter: blur(5px);
+        position: absolute;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+        border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+        box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+        transform: skewX(10deg);
+        transition: .4s;
+        overflow: hidden;
+        color: white;
+      }
+      
+      .card:hover {
+        height: 240px;
+        transform: skew(0deg);
+      }
+      
+      .align {
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        align-self: flex-start;
+      }
+      
+      .red {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ff605c;
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+      }
+      
+      .yellow {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ffbd44;
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+      }
+      
+      .green {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #00ca4e;
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+      }
+      
+      .card h1 {
+        text-align: center;
+        margin: 1.3rem;
+        color: rgb(218, 244, 237);
+        text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+      }
+      
+
+      .card-2 {
+        margin-top: 50px;
+        margin-left: 500px;
+        width: 240px;
+        height: 120px;
+        padding: 0.5rem;
+        background: url(./img/mike.png);
+        border-radius: 8px;
+        backdrop-filter: blur(5px);
+        position: absolute;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+        border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+        box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+        transform: skewX(10deg);
+        transition: .4s;
+        overflow: hidden;
+        color: white;
+      }
+
+      .card-2:hover {
+        height: 240px;
+        transform: skew(0deg);
+      }
+
+      .card-2 h1 {
+        text-align: center;
+        margin: 1.3rem;
+        color: rgb(218, 244, 237);
+        text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+      }
+
+
+      .card-3{
+        margin-top: 50px;
+        margin-left: 950px;
+        width: 240px;
+        height: 120px;
+        padding: 0.5rem;
+        background: url(./img/max.png);
+        border-radius: 8px;
+        backdrop-filter: blur(5px);
+        position: absolute;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+        border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+        box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+        transform: skewX(10deg);
+        transition: .4s;
+        overflow: hidden;
+        color: white;
+      }
+
+      .card-3:hover {
+        height: 240px;
+        transform: skew(0deg);
+      }
+
+      .card-3 h1 {
+        text-align: center;
+        margin: 1.3rem;
+        color: rgb(218, 244, 237);
+        text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+      }
+
+
+      .card-4{
+        margin-top: 350px;
+        margin-left: 80px;
+        width: 240px;
+        height: 120px;
+        padding: 0.5rem;
+        background: url(./img/lucas.png);
+        border-radius: 8px;
+        backdrop-filter: blur(5px);
+        position: absolute;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+        border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+        box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+        transform: skewX(10deg);
+        transition: .4s;
+        overflow: hidden;
+        color: white;
+      }
+
+      .card-4:hover {
+        height: 240px;
+        transform: skew(0deg);
+      }
+
+      .card-4 h1 {
+        text-align: center;
+        margin: 1.3rem;
+        color: rgb(218, 244, 237);
+        text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+      }
+
+      .card-5{
+        margin-top: 350px;
+        margin-left: 550px;
+        width: 240px;
+        height: 120px;
+        padding: 0.5rem;
+        background: url(./img/dustin.png);
+        border-radius: 8px;
+        backdrop-filter: blur(5px);
+        position: absolute;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+        border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+        box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+        transform: skewX(10deg);
+        transition: .4s;
+        overflow: hidden;
+        color: white;
+      }
+
+      .card-5:hover {
+        height: 240px;
+        transform: skew(0deg);
+      }
+
+      .card-5 h1 {
+        text-align: center;
+        margin: 1.3rem;
+        color: rgb(218, 244, 237);
+        text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+      }
+
+      .card-6{
+        margin-top: 350px;
+        margin-left: 1000px;
+        width: 240px;
+        height: 120px;
+        padding: 0.5rem;
+        background: url(./img/will.png);
+        border-radius: 8px;
+        backdrop-filter: blur(5px);
+        position: absolute;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+        border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+        box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+        transform: skewX(10deg);
+        transition: .4s;
+        overflow: hidden;
+        color: white;
+      }
+
+      .card-6:hover {
+        height: 240px;
+        transform: skew(0deg);
+      }
+
+      .card-6 h1 {
+        text-align: center;
+        margin: 1.3rem;
+        color: rgb(218, 244, 237);
+        text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+      }
