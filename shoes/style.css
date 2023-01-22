@@ -1,0 +1,432 @@
+body{
+    background: rgb(14, 10, 10);
+}
+
+.card {
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+  
+  .card-image {
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/t1.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 10px 7px 0;
+  }
+  
+  .category:hover {
+    cursor: pointer;
+  }
+  
+  .heading {
+    font-weight: 600;
+    color: rgb(243, 243, 243);
+    padding: 7px;
+  }
+  
+  .heading:hover {
+    cursor: pointer;
+  }
+  
+  .author {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+  }
+  
+  .name {
+    font-weight: 600;
+  }
+  
+  .name:hover {
+    cursor: pointer;
+  }
+
+  .card-2 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-2 {
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/t3.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-2:hover {
+    transform: scale(0.98);
+  }
+
+  .card-3 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-3 {
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/t6.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-3:hover {
+    transform: scale(0.98);
+  }
+
+  .card-4 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-4{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/t4.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-4:hover {
+    transform: scale(0.98);
+  }
+
+  .card-5 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-5{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/b1.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-5:hover {
+    transform: scale(0.98);
+  }
+
+  .card-6 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-6{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/b2.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-6:hover {
+    transform: scale(0.98);
+  }
+
+  .card-7 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-7{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/b4.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-7:hover {
+    transform: scale(0.98);
+  }
+
+  .card-8 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-8{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/b3.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-8:hover {
+    transform: scale(0.98);
+  }
+
+  .card-9 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-9{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/t7.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-9:hover {
+    transform: scale(0.98);
+  }
+
+  .card-10 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-10{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/t2.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-10:hover {
+    transform: scale(0.98);
+  }
+
+  .card-11 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-11{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/t5.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-11:hover {
+    transform: scale(0.98);
+  }
+
+  .card-12 {
+    margin-bottom: 20px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-12{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/t8.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-12:hover {
+    transform: scale(0.98);
+  }
+
+  .card-13 {
+    margin-bottom: 20px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-13{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/b6.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-13:hover {
+    transform: scale(0.98);
+  }
+
+  .card-14 {
+    margin-bottom: 20px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-14{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/b7.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-14:hover {
+    transform: scale(0.98);
+  }
+
+  .card-15 {
+    margin-bottom: 20px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-15{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/b5.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-15:hover {
+    transform: scale(0.98);
+  }
+
+  .card-16 {
+    margin-bottom: 20px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 190px;
+    height: 274px;
+    background: rgb(114, 113, 113);
+    padding: .4em;
+    border-radius: 6px;
+  }
+
+  .card-image-16{
+    margin-top: 3px;
+    margin-left: 7px;
+    background-image: url(./img/b8.png);
+    width: 175px;
+    height: 164px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .card-image-16:hover {
+    transform: scale(0.98);
+  }
+
+
+  
