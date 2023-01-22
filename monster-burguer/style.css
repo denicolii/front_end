@@ -1,0 +1,402 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #0e1720 url(./img/background2.png) no-repeat;
+}
+
+a img{
+  width: 151px;
+  height: 151px;
+  margin-left: 512px;
+}
+
+main{
+  background: #0e1720;
+}
+
+.cards {
+    perspective: 500px;
+    margin-left: 60px;
+    
+  }
+  
+  .card {
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 200px;
+    height: 250px;
+    background: url(./img/h1.png);
+    border: 2px solid #555555;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+  
+  .card:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+  }
+  
+  .card_title {
+    margin-top: 100px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+    font: 700 1.5rem monospace;
+    text-shadow: -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  }
+  
+  .card:hover .card_title {
+    transform: translateZ(10px);
+  }
+
+  
+  .card-1 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 200px;
+    height: 250px;
+    background: url(./img/h2.png);
+    border: 2px solid #555555;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+
+  .card-1:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+  }
+
+  .card-1:hover .card_title {
+    transform: translateZ(10px);
+  }
+
+  .card-2 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 200px;
+    height: 250px;
+    background: url(./img/h3.png);
+    border: 2px solid #555555;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+
+  .card-2:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+  }
+
+  .card-2:hover .card_title {
+    transform: translateZ(10px);
+  }
+
+  .card-3 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 200px;
+    height: 250px;
+    background: url(./img/h4.png);
+    border: 2px solid #555555;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+
+  .card-3:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+  }
+
+  .card-3:hover .card_title {
+    transform: translateZ(10px);
+  }
+
+  .card-4 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 200px;
+    height: 250px;
+    background: url(./img/r1.png);
+    border: 2px solid #555555;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+
+  .card-4:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+  }
+
+  .card-4:hover .card_title-s {
+    transform: translateZ(10px);
+  }
+
+  .card_title-s {
+    margin-top: 100px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+    font: 700 1.5rem monospace;
+    text-shadow: -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  }
+
+  .card-5 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 200px;
+    height: 250px;
+    background: url(./img/r2.png);
+    border: 2px solid #555555;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+
+  .card-5:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+  }
+
+  .card-5:hover .card_title-s {
+    transform: translateZ(10px);
+  }
+
+  .card-6 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 200px;
+    height: 250px;
+    background: url(./img/r3.png);
+    border: 2px solid #555555;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+
+  .card-6:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+  }
+
+  .card-6:hover .card_title-s {
+    transform: translateZ(10px);
+  }
+
+  .card-7 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 200px;
+    height: 250px;
+    background: url(./img/r4.png);
+    border: 2px solid #555555;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+
+  .card-7:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+    
+  }
+
+  .card-7:hover .card_title-s {
+    transform: translateZ(10px);
+  }
+
+  .card-8 {
+    margin-bottom: 150px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 200px;
+    height: 250px;
+    background: url(./img/a1.png);
+    border: 2px solid #555555;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+
+  .card-8:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+    
+  }
+
+  .card-8:hover .card_title-a {
+    transform: translateZ(5px);
+  }
+
+  .card_title-a {
+    margin-top: 100px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+    font: 700 1.5rem monospace;
+    text-shadow: -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  }
+
+  .card-9 {
+    margin-bottom: 150px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 200px;
+    height: 250px;
+    background: url(./img/a2.png);
+    border: 2px solid #555555;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+
+  .card-9:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+    
+  }
+
+  .card-9:hover .card_title-a {
+    transform: translateZ(5px);
+  }
+
+  .card_title-a {
+    margin-top: 100px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+    font: 700 1.5rem monospace;
+    text-shadow: -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  }
+
+  .card-10 {
+    margin-bottom: 150px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 200px;
+    height: 250px;
+    background: url(./img/a3.png);
+    border: 2px solid #555555;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+
+  .card-10:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+    
+  }
+
+  .card-10:hover .card_title-a {
+    transform: translateZ(5px);
+  }
+
+  .card_title-a {
+    margin-top: 100px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+    font: 700 1.5rem monospace;
+    text-shadow: -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  }
+
+  .card-11 {
+    margin-bottom: 150px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 200px;
+    height: 250px;
+    background: url(./img/a4.png);
+    border: 2px solid #555555;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+  }
+
+  .card-11:hover {
+    transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+    
+  }
+
+  .card-11:hover .card_title-a {
+    transform: translateZ(5px);
+  }
+
+  .card_title-a {
+    margin-top: 100px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    transition: transform .5s;
+    font: 700 1.5rem monospace;
+    text-shadow: -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  }
+
+  
