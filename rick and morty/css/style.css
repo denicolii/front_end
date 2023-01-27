@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navegacao {
+    
+    background-color: rgb(188, 26, 238);
+}
+
+body{
+    background: #000000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.navbar navbar-expand-sm navbar-dark, img {
+    margin-left: 50px;
+}
+
+.collapse navbar-collapse, .btn {
+    margin-bottom: 20px;
+    margin-right: 50px;
+    background-color: #A7F024;
+}
+
+.container .texto {
+    width: 510px;
+    height: 270px;
+    color: #fff;
+    font-size: 23px;
+    margin-left: 30px;
+    margin-top: 180px;
+}
+
+.texto {
+    float: left;
+}
+
+.imagem{
+    display: inline-block;
+    float: right;
+}
+
+.imagem img{
+    display: inline-block;
+    float: right;
+    width: 400px;
+    height: 625px;
+    margin-top: 70px;
+    
+}
+
+.botao{
+    padding-bottom: 50px;
+}
+
+.btt, .btn{
+    margin-top: 25px;
+    margin-left: 100px;
+    
+}
+
+hr{
+    background-color: #A7F024;
+    margin-top: 130px;
+    border: 1px solid #A7F024;
+}
+
+.wallpaper {
+    padding: 20px;
+    color: #A7F024;
+    text-align: center;
+}
+
+#carouselExampleControls{
+    width: 1000px;
+    height: 900px;
+    margin-left: 110px ;
+}
+
+
+
+
+
+@media screen and (max-width: 576.98px) { 
+    .container .texto {
+        width: 310px;
+        height: 13px;
+        color: #fff;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    
+
+    .imagem img{
+        width: 300px;
+        height: 525px;
+        margin-top: 300px;
+        margin-right: 20px;
+        
+    }
+
+    .botao{
+        padding-bottom: 20px;
+    }
+
+    .btt, .btn{
+        margin-left: 120px;
+        
+    }
+
+    .navbar navbar-expand-sm navbar-dark, img{
+        margin-left:0px;
+    }
+    
+    .collapse navbar-collapse, .btn {
+        margin-left: 0;
+        background-color: #A7F024;
+    }
+
+    hr{
+        background-color: #A7F024;
+        margin-top: 3px;
+        border: 1px solid #A7F024;
+    }
+
+    .wallpaper {
+        padding: 5px;
+        color: #A7F024;
+        text-align: center;
+    }
+
+    #carouselExampleControls{
+        padding-top: 50px;
+        width: 300px;
+        height: 500px;
+        margin-left: 30px ;
+    }
+}
